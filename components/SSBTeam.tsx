@@ -50,7 +50,7 @@ const SSBTeam: React.FC<SSBTeamProps> = ({ navigateTo }) => {
                 <h1 className="text-4xl md:text-5xl font-extrabold text-white mt-4 mb-12 flex items-center justify-center flex-wrap gap-x-3 gap-y-2">
                     A Team of
                     <span className="bg-red-600 rounded-full w-16 h-16 flex items-center justify-center text-4xl font-bold mx-2 shadow-lg">11</span>
-                    <span className="text-yellow-400">Brigadiers & Col. Ranks Officers</span>
+                    <span className="text-yellow-400">Brigadiers &amp; Col. Ranks Officers</span>
                 </h1>
             </div>
             <div className="mt-8 group">

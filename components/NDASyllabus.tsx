@@ -134,7 +134,7 @@ const NDASyllabus: React.FC = () => {
                             <td className="border border-slate-200 p-3">Types of matrices, operations on matrices. Determinant of a matrix, basic properties of determinants. Adjoint and inverse of a square matrix, Applications-Solution of a system of linear equations in two or three unknowns by Cramer’s rule and by Matrix Method.</td>
                         </tr>
                         <tr>
-                            <td className="border border-slate-200 p-3 font-semibold align-top">Integral Calculus & Differential Equations</td>
+                            <td className="border border-slate-200 p-3 font-semibold align-top">Integral Calculus &amp; Differential Equations</td>
                             <td className="border border-slate-200 p-3">Integration as inverse of differentiation, integration by substitution and by parts, standard integrals. Evaluation of definite integrals—determination of areas of plane regions bounded by curves. Definition of order and degree of a differential equation, formation of a differential equation. General and particular solutions of differential equations. Application in problems of growth and decay.</td>
                         </tr>
                         <tr>
@@ -169,7 +169,7 @@ const NDASyllabus: React.FC = () => {
                   </div>
                   <div className="bg-slate-50 p-4 rounded border border-slate-200 text-center">
                       <p className="font-bold text-red-600 text-lg">30</p>
-                      <p className="text-sm text-slate-600">Matrices & Determinants</p>
+                      <p className="text-sm text-slate-600">Matrices &amp; Determinants</p>
                   </div>
                   <div className="bg-slate-50 p-4 rounded border border-slate-200 text-center">
                       <p className="font-bold text-red-600 text-lg">10</p>

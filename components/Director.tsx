@@ -38,7 +38,7 @@ const Director: React.FC = () => {
              {/* Content */}
              <div className="lg:w-7/12">
                 <h2 className="text-3xl font-bold text-slate-800 mb-6 relative inline-block">
-                    Dear Parents & Students !
+                    Dear Parents &amp; Students !
                     <span className="absolute bottom-0 left-0 w-1/2 h-1 bg-red-600 rounded-full"></span>
                 </h2>
                 
@@ -52,7 +52,7 @@ const Director: React.FC = () => {
                     </div>
 
                     <p>
-                        A pioneer in the field of education with rich experience of over two decades, <span className="font-bold text-slate-800">Prince NDA Academy</span> is a unique entity of Prince Edu-Hub. Prince NDA Academy has evolved a pattern of education that is in-tune with the changing needs of today’s leadership & challenges.
+                        A pioneer in the field of education with rich experience of over two decades, <span className="font-bold text-slate-800">Prince NDA Academy</span> is a unique entity of Prince Edu-Hub. Prince NDA Academy has evolved a pattern of education that is in-tune with the changing needs of today’s leadership &amp; challenges.
                     </p>
                     
                     <p>

@@ -211,7 +211,7 @@ const NDAEligibility: React.FC = () => {
                         <li>No liver/spleen enlargement.</li>
                         <li>No skin diseases or urine abnormalities.</li>
                         <li>Sufficient number of natural and sound teeth.</li>
-                        <li>No spinal diseases like Arthritis, Spondylosis, Scoliosis (>15 deg), etc.</li>
+                        <li>No spinal diseases like Arthritis, Spondylosis, Scoliosis (&gt;15 deg), etc.</li>
                     </ul>
                 </div>
             </div>
