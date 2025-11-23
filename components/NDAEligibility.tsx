@@ -33,7 +33,7 @@ const NDAEligibility: React.FC = () => {
                 National Defence Academy eligibility is specified by UPSC in the official notification. The male and female eligibility criteria include factors such as nationality, NDA age limit, NDA qualification, NDA physical test, and medical standards.
               </p>
               <ul className="list-disc list-inside text-slate-700 font-medium space-y-1 bg-slate-50 p-4 rounded-lg">
-                <li>NDA Age Limit, Marital Status & Gender</li>
+                <li>NDA Age Limit, Marital Status and Gender</li>
                 <li>Citizenship/Nationality</li>
                 <li>NDA Qualification</li>
                 <li>NDA Physical Test/ Medical Qualification</li>
@@ -65,7 +65,7 @@ const NDAEligibility: React.FC = () => {
                       <td className="border border-slate-200 p-3">Lieutenant</td>
                     </tr>
                     <tr>
-                      <td className="border border-slate-200 p-3 font-semibold">Gender & Marital Status</td>
+                      <td className="border border-slate-200 p-3 font-semibold">Gender and Marital Status</td>
                       <td className="border border-slate-200 p-3">Unmarried: Female and Male</td>
                     </tr>
                     <tr>
@@ -85,7 +85,7 @@ const NDAEligibility: React.FC = () => {
                     </tr>
                     <tr>
                       <td className="border border-slate-200 p-3 font-semibold">Selection Process</td>
-                      <td className="border border-slate-200 p-3">Written exam & SSB Interview</td>
+                      <td className="border border-slate-200 p-3">Written exam and SSB Interview</td>
                     </tr>
                   </tbody>
                 </table>
@@ -122,7 +122,7 @@ const NDAEligibility: React.FC = () => {
                             <td className="border border-slate-200 p-3">Passed Class 12 or equivalent examination.</td>
                         </tr>
                         <tr>
-                            <td className="border border-slate-200 p-3 font-semibold">Air Force, Naval Wings & INA Cadet Entry</td>
+                            <td className="border border-slate-200 p-3 font-semibold">Air Force, Naval Wings and INA Cadet Entry</td>
                             <td className="border border-slate-200 p-3">Passed Class 12 or equivalent examination with <strong>Physics, Chemistry, and Mathematics</strong>.</td>
                         </tr>
                     </tbody>
@@ -133,7 +133,7 @@ const NDAEligibility: React.FC = () => {
 
              {/* Nationality */}
              <div>
-                <h3 className="text-2xl font-bold text-slate-800 mb-4 pb-2 border-b border-slate-200">Nationality & Marital Status</h3>
+                <h3 className="text-2xl font-bold text-slate-800 mb-4 pb-2 border-b border-slate-200">Nationality and Marital Status</h3>
                 <div className="text-slate-600 space-y-4">
                     <p><strong>Marital Status:</strong> Only unmarried male and female candidates can apply. Candidates must not marry until they complete their training.</p>
                     <p><strong>Nationality:</strong> To apply for NDA, candidates must be:</p>
@@ -211,7 +211,7 @@ const NDAEligibility: React.FC = () => {
                         <li>No liver/spleen enlargement.</li>
                         <li>No skin diseases or urine abnormalities.</li>
                         <li>Sufficient number of natural and sound teeth.</li>
-                        <li>No spinal diseases like Arthritis, Spondylosis, Scoliosis (&gt;15 deg), etc.</li>
+                        <li>No spinal diseases like Arthritis, Spondylosis, Scoliosis (greater than 15 degrees), etc.</li>
                     </ul>
                 </div>
             </div>

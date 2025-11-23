@@ -35,16 +35,16 @@ const MD: React.FC = () => {
                </h2>
                
                <div className="text-lg text-slate-700 leading-relaxed space-y-6">
-                   <h3 className="font-bold text-xl text-slate-900">Dear Parents &amp; Students !</h3>
+                   <h3 className="font-bold text-xl text-slate-900">Dear Parents and Students !</h3>
                    
                    <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-600 shadow-sm">
                         <p className="italic font-medium text-slate-800">
-                            "Give me a boy &amp; I will give you a young man capable of leadership role. It will be my team’s endeavor to maintain highest quality of professionalism, zeal &amp; dedication in preparing students to face NDA written exam &amp; SSB with confidence."
+                            "Give me a boy and I will give you a young man capable of leadership role. It will be my team’s endeavor to maintain highest quality of professionalism, zeal and dedication in preparing students to face NDA written exam and SSB with confidence."
                         </p>
                    </div>
 
                    <p>
-                       I assure guardians &amp; students of quality coaching where the focus besides being the written exam will also be on spoken English, personality build up &amp; knowledge enhancement besides games &amp; sports.
+                       I assure guardians and students of quality coaching where the focus besides being the written exam will also be on spoken English, personality build up and knowledge enhancement besides games and sports.
                    </p>
                </div>
 

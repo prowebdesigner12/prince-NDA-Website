@@ -74,7 +74,7 @@ const OurTeam: React.FC = () => {
                         <div className="relative">
                             <span className="relative z-10 bg-red-600 text-white rounded-full w-20 h-20 flex items-center justify-center text-4xl shadow-lg border-4 border-white/20">11</span>
                         </div>
-                        <span className="text-yellow-400 drop-shadow-lg">Brigadiers &amp; Col. Ranks Officers</span>
+                        <span className="text-yellow-400 drop-shadow-lg">Brigadiers and Col. Ranks Officers</span>
                     </h1>
                </div>
           </div>

@@ -29,7 +29,7 @@ const SSBSyllabus: React.FC = () => {
                     <ul className="list-disc list-inside text-sm text-slate-600 space-y-1">
                         <li>Verbal Tests</li>
                         <li>Non-verbal Tests</li>
-                        <li>Picture Perception &amp; Description Test (PPDT)</li>
+                        <li>Picture Perception and Description Test (PPDT)</li>
                     </ul>
                 </div>
 
@@ -51,7 +51,7 @@ const SSBSyllabus: React.FC = () => {
                          <div>
                             <p className="text-slate-700 font-medium mb-1">Final Phase</p>
                             <p className="text-sm text-slate-600 leading-relaxed">
-                                Personal Interview &amp; Conference.
+                                Personal Interview and Conference.
                             </p>
                         </div>
                     </div>
