@@ -227,15 +227,15 @@ const NDASyllabus: React.FC = () => {
                  <div>
                     <h4 className="text-lg font-bold text-red-600 mb-3 border-b border-red-200 pb-1">NDA English Syllabus</h4>
                     <ul className="list-disc list-inside text-sm text-slate-600 space-y-1">
-                        <li>Grammar & usage</li>
-                        <li>Comprehension & cohesion</li>
+                        <li>Grammar &amp; usage</li>
+                        <li>Comprehension &amp; cohesion</li>
                         <li>Spotting of errors</li>
                         <li>Para Jumbling</li>
                         <li>Fill in the blanks</li>
-                        <li>Synonyms & Antonyms</li>
-                        <li>Vocabulary & Cloze Test</li>
-                        <li>Idioms & Proverbs</li>
-                        <li>Sentence Correction & Improvement</li>
+                        <li>Synonyms &amp; Antonyms</li>
+                        <li>Vocabulary &amp; Cloze Test</li>
+                        <li>Idioms &amp; Proverbs</li>
+                        <li>Sentence Correction &amp; Improvement</li>
                     </ul>
                  </div>
                  
@@ -267,7 +267,7 @@ const NDASyllabus: React.FC = () => {
                         <li>Carbon and its forms</li>
                         <li>Fertilizers, Soap, Glass, Ink, Paper, Cement, Paints</li>
                         <li>Structure of Atom, Atomic Weights, Valency</li>
-                        <li>Chemical Equations & Laws of Combination</li>
+                        <li>Chemical Equations &amp; Laws of Combination</li>
                     </ul>
                  </div>
 

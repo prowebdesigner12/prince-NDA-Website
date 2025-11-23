@@ -15,6 +15,22 @@ const NavLink: React.FC<{ onClick: () => void; children: React.ReactNode; isActi
   </li>
 );
 
+interface DropdownLinkProps {
+  link: { page: string; text: string };
+  currentPage: string;
+  onNavigate: (page: string) => void;
+}
+
+const DropdownLink: React.FC<DropdownLinkProps> = ({ link, currentPage, onNavigate }) => (
+  <li>
+      <a href="#" 
+         onClick={(e) => { e.preventDefault(); onNavigate(link.page); }} 
+         className={`block px-4 py-2 text-slate-200 transition-colors ${currentPage === link.page ? 'bg-white text-red-600' : 'hover:bg-white hover:text-red-600'}`}>
+          {link.text}
+      </a>
+  </li>
+);
+
 const Header: React.FC<HeaderProps> = ({ navigateTo, currentPage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
@@ -114,16 +130,6 @@ const Header: React.FC<HeaderProps> = ({ navigateTo, currentPage }) => {
   const isAdmissionActive = admissionLinks.some(link => link.page === currentPage);
   const isGalleryActive = galleryLinks.some(link => link.page === currentPage);
 
-  const DropdownLink: React.FC<{link: {page: string, text: string}}> = ({ link }) => (
-    <li>
-        <a href="#" 
-           onClick={(e) => { e.preventDefault(); handleNavigation(link.page); }} 
-           className={`block px-4 py-2 text-slate-200 transition-colors ${currentPage === link.page ? 'bg-white text-red-600' : 'hover:bg-white hover:text-red-600'}`}>
-            {link.text}
-        </a>
-    </li>
-  );
-
   return (
     <header className="bg-slate-900 sticky top-0 z-50">
       <div className={`bg-slate-800 text-slate-300 text-xs border-b border-slate-700 transition-all duration-300 overflow-hidden ${isScrolled ? 'max-h-0' : 'max-h-20'}`}>
@@ -173,7 +179,7 @@ const Header: React.FC<HeaderProps> = ({ navigateTo, currentPage }) => {
                 {isAboutDropdownOpen && (
                     <div className="absolute top-full mt-2 w-48 bg-slate-900/80 backdrop-blur-lg rounded-md shadow-lg z-10 border border-slate-700">
                         <ul className="py-1 text-sm">
-                            {aboutLinks.map(link => <DropdownLink key={link.page} link={link} />)}
+                            {aboutLinks.map(link => <DropdownLink key={link.page} link={link} currentPage={currentPage} onNavigate={handleNavigation} />)}
                         </ul>
                     </div>
                 )}
@@ -187,7 +193,7 @@ const Header: React.FC<HeaderProps> = ({ navigateTo, currentPage }) => {
                 {isCoursesDropdownOpen && (
                     <div className="absolute top-full mt-2 w-48 bg-slate-900/80 backdrop-blur-lg rounded-md shadow-lg z-10 border border-slate-700">
                         <ul className="py-1 text-sm">
-                            {courseLinks.map(link => <DropdownLink key={link.page} link={link} />)}
+                            {courseLinks.map(link => <DropdownLink key={link.page} link={link} currentPage={currentPage} onNavigate={handleNavigation} />)}
                         </ul>
                     </div>
                 )}
@@ -199,7 +205,7 @@ const Header: React.FC<HeaderProps> = ({ navigateTo, currentPage }) => {
                 {isGalleryDropdownOpen && (
                     <div className="absolute top-full mt-2 w-48 bg-slate-900/80 backdrop-blur-lg rounded-md shadow-lg z-10 border border-slate-700">
                         <ul className="py-1 text-sm">
-                            {galleryLinks.map(link => <DropdownLink key={link.page} link={link} />)}
+                            {galleryLinks.map(link => <DropdownLink key={link.page} link={link} currentPage={currentPage} onNavigate={handleNavigation} />)}
                         </ul>
                     </div>
                 )}
@@ -211,7 +217,7 @@ const Header: React.FC<HeaderProps> = ({ navigateTo, currentPage }) => {
                 {isAdmissionDropdownOpen && (
                     <div className="absolute top-full mt-2 w-48 bg-slate-900/80 backdrop-blur-lg rounded-md shadow-lg z-10 border border-slate-700">
                         <ul className="py-1 text-sm">
-                            {admissionLinks.map(link => <DropdownLink key={link.page} link={link} />)}
+                            {admissionLinks.map(link => <DropdownLink key={link.page} link={link} currentPage={currentPage} onNavigate={handleNavigation} />)}
                         </ul>
                     </div>
                 )}
